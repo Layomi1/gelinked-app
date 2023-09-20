@@ -1,0 +1,19 @@
+.navbar {
+    padding: 25px 170px 10px 320px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.navbar-nav{
+    margin-right: 90px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 40px;
+}
+.navbar-nav .nav-item a {
+    color: #fff;
+}
+@media screen and(max-width:576px){
+   
+}
