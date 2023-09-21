@@ -64,6 +64,13 @@ h3 span{
     height: 32px;
     /* color: grey; */
 }
+
+.pink-star {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+
+}
 .container {
     padding: 30px 70px 10px 70px;
 }
