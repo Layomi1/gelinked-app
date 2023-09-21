@@ -25,7 +25,7 @@ color: var(--primary-color);
 width: 100%;
 height: 100vh;
 font-weight: 400;
-position: relative;
+overflow-x: hidden;
 }
 img{
     width: 100%;
@@ -45,31 +45,41 @@ h3{
     font-weight: 700; 
     word-wrap: nowrap;
     margin-top: 50px;
-    letter-spacing: -9px;
-    
+    /* letter-spacing: -9px; */
+    font-family: 'Clash Display', sans-serif;
 }
 h3 span{
     display: block;
     color: var(--secondary-color);
 }
+.star {
+    position: absolute;
+    width: 26px;
+    height: 32px;
+}
 
-.section{
-    padding:40px 150px 0 350px;
-    overflow: hidden;
+.faded{
+    position: absolute;
+    width: 26px;
+    height: 32px;
+    /* color: grey; */
+}
+.container {
+    padding: 30px 70px 10px 70px;
 }
 .landing-banner{
     background-image: url('/assets/images/purple-flare.png');
     background-color: var(--background-color);
-    background-position:  29% -190px;
+    background-position:  -7% -310px;
     background-repeat: no-repeat;
     background-size: contain;
-    
     background-blend-mode: hard-light; 
 } 
 .rule-banner {
     background-image: url('/assets/images/purple-flare.png');
     background-color: var(--background-color);
-    background-position:  29% -190px;
+    background-position-y:  85% -49%;
+    /* background-repeat: no-repeat; */
     background-size: contain;
     background-blend-mode: hard-light; 
 
@@ -78,11 +88,6 @@ h3 span{
     display: flex; 
     gap:5px;
     align-items: top;
+    margin-top: 70px;
 }
 
-.star-one {
-    position: absolute;
-    top:15%;
-    left:9%;
-    color: #fff;
-}
