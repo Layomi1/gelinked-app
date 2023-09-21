@@ -25,7 +25,7 @@ color: var(--primary-color);
 width: 100%;
 height: 100vh;
 font-weight: 400;
-position: relative;
+overflow-x: hidden;
 }
 img{
     width: 100%;
@@ -45,30 +45,56 @@ h3{
     font-weight: 700; 
     word-wrap: nowrap;
     margin-top: 50px;
-    letter-spacing: -5px;
-    
+    /* letter-spacing: -9px; */
+    font-family: 'Clash Display', sans-serif;
 }
 h3 span{
     display: block;
     color: var(--secondary-color);
 }
-
-.section{
-    padding:40px 150px 0 350px;
-    overflow: hidden;
+.star {
+    position: absolute;
+    width: 26px;
+    height: 32px;
 }
-.flare{
+
+.faded{
+    position: absolute;
+    width: 26px;
+    height: 32px;
+    /* color: grey; */
+}
+
+.pink-star {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+
+}
+.container {
+    padding: 30px 70px 10px 70px;
+}
+.landing-banner{
     background-image: url('/assets/images/purple-flare.png');
     background-color: var(--background-color);
-    position: absolute;
-    top:-20%;
-    left: 12%;
-    z-index: -1; 
-    background-blend-mode: color-dodge;
- } 
+    background-position:  -7% -310px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: hard-light; 
+} 
+.rule-banner {
+    background-image: url('/assets/images/purple-flare.png');
+    background-color: var(--background-color);
+    background-position-y:  85% -49%;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-blend-mode: hard-light; 
 
+}
 .content {
     display: flex; 
     gap:5px;
     align-items: top;
+    margin-top: 70px;
 }
+
