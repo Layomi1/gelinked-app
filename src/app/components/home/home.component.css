@@ -134,7 +134,7 @@
 .intro{
     display: flex;
     height: 617px;; 
-   
+
 }
 .image{
     display: flex;
@@ -167,7 +167,7 @@
 
 .idea-info .pink-star {
     top: 20%;
-    left: 0;
+    left: -110%;
 }
 /* rules */
 .woman {
