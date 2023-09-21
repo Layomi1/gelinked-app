@@ -45,7 +45,7 @@ h3{
     font-weight: 700; 
     word-wrap: nowrap;
     margin-top: 50px;
-    letter-spacing: -5px;
+    letter-spacing: -9px;
     
 }
 h3 span{
@@ -57,18 +57,32 @@ h3 span{
     padding:40px 150px 0 350px;
     overflow: hidden;
 }
-.flare{
+.landing-banner{
     background-image: url('/assets/images/purple-flare.png');
     background-color: var(--background-color);
-    position: absolute;
-    top:-20%;
-    left: 12%;
-    z-index: -1; 
-    background-blend-mode: color-dodge;
- } 
+    background-position:  29% -190px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-blend-mode: hard-light; 
+} 
+.rule-banner {
+    background-image: url('/assets/images/purple-flare.png');
+    background-color: var(--background-color);
+    background-position:  29% -190px;
+    background-size: contain;
+    background-blend-mode: hard-light; 
 
+}
 .content {
     display: flex; 
     gap:5px;
     align-items: top;
+}
+
+.star-one {
+    position: absolute;
+    top:15%;
+    left:9%;
+    color: #fff;
 }

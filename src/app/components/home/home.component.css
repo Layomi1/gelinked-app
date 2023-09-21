@@ -1,28 +1,35 @@
+.navbar {
+    padding: 25px 170px 10px 320px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.navbar-nav{
+    margin-right: 90px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 40px;
+}
+.navbar-nav .nav-item a {
+    color: #fff;
+}
+
+/* home */
 .home{ 
     position: relative;
 }
 .section {
     height: 800px;
 }
-/* .flare {
-    position: absolute;
-    background-color: var(--background-color);
-    top:-3%;
-    left: 7%;
-    z-index: -1; 
-    /* background-blend-mode: hard-light; *
-} */
 
-/* .flare{
-    background-image: url('/assts/images/purple-flare.png');
-    background-color: var(--background-color);
- }  */
-.star-one {
+
+/* .star-one {
     position: absolute;
     top:15%;
     left:9%;
     color: #fff;
-}
+} */
 .head{
     position: relative;
     top: 0px;
