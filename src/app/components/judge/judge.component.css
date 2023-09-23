@@ -1,13 +1,31 @@
 .stat {
     height: 900px;
     margin-bottom: 70px;
-    
+}
+.judge {
+    position: relative;
+    width: 710px;
+    height: 587px
+}
+
+.photo {
+    position: absolute;
+    z-index: 2;
+    left: -13%;
+    bottom: -15%;
+
+}
+.ellipse{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
 }
 .stat .info {
     display: flex;
     flex-direction: column;
     gap: 50px;
     width: 535px;
+    margin-left: -100px;
 }
 
 .stat .info h3 {
@@ -21,3 +39,12 @@
 p span {
     color: var(--secondary-color);
 }
+.star {
+    bottom: -20%;
+    left: 74%;
+}
+.purple-star {
+    top: -2%;
+    left: 9%;
+}
+
