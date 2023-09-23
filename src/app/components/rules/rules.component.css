@@ -1,0 +1,30 @@
+section{
+    min-height: 617px;
+}
+.rule{ 
+    position: relative;
+    width: 664px;
+    height: 664px;
+}
+.woman {
+    position: absolute;   
+    right:10% ; 
+}
+
+.rule .ellipse{
+    position: absolute;
+    top: 15%;
+    right: 29%;
+
+
+}
+.rule-info .faded {
+    top: 0;
+    left: 50%;
+}
+
+
+.rule-info .star {
+    bottom: 0%;
+    left: 100%;
+}

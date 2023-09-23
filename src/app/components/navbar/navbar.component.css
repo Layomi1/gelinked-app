@@ -1,5 +1,6 @@
-/* .navbar {
-    padding: 25px 170px 10px 320px;
+
+.navbar {
+    /* padding: 25px 170px 10px 320px; */
     align-items: center;
     margin-bottom: 0;
 }
@@ -8,12 +9,8 @@
     margin-right: 90px;
 }
 
-.navbar-nav .nav-item {
-    margin-left: 40px;
-}
+
 .navbar-nav .nav-item a {
     color: #fff;
+    margin: 0 17px  0 0;
 }
-@media screen and(max-width:576px){
-   
-} */

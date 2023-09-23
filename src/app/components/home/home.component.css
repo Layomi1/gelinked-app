@@ -1,39 +1,26 @@
-.navbar {
-    /* padding: 25px 170px 10px 320px; */
-    align-items: center;
-    margin-bottom: 0;
-}
 
-.navbar-nav{
-    margin-right: 90px;
-}
-
-.navbar-nav .nav-item {
-    margin-left: 40px;
-}
-.navbar-nav .nav-item a {
-    color: #fff;
-}
-
-/* home */
 .home {
     height: 900px;
 }
 
 .head{
     position: absolute;
-    left: 40%;
+    left: 42%;
     
 }
 .home .header{
     font-size: 36px;
     font-style: italic;
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: -1px;
     
 }
 .head svg{
-    margin:-30px 0 0px 500px;
+    margin:-30px 0 0px 360px;
+}
+h1 {
+    width: 722px;
+    height: 236px;
 }
 .details {
     display: flex;
@@ -51,7 +38,7 @@
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
-    padding: 80px 0;
+    padding-top: 80px ;
     letter-spacing: -2px;
     word-spacing: -5px;
 
@@ -60,13 +47,7 @@
     color: var(--secondary-color);
 }
 
-.chain {
-    position: absolute;
-    top: 27%;
-    left:70%;
-    width: 86px;
-    height: 86px;
-}
+
 .bulb {
     position: absolute;
     top: 30px;
@@ -98,128 +79,54 @@
 }
 .home .faded{
     top: 80%;
-    left: 65%;
+    left: 55%;
 }
 /* photos */
+
 .photos { 
-    width: 828px;
+    width: 810px;
     height: 715px;
     position: relative;
-    background-blend-mode: screen; 
-    left: -22%;
+    right: 30%;
     top: 11%;
+   
+}
+.chain {
+    position: absolute;
+    top: 20%;
+    left:10%;
+    width: 86px;
+    height: 86px;
 }
 .google{
-    object-fit: cover;
-    width: 828px;
+    /* max-height: 715px; */
     z-index: -1;
+    object-fit: contain;
+    
+}
+.photos .faded {
+    top: 0px;
+    left: 25%;
     
 }
 .reaction {
     position: absolute;
     top:-10%;
     left: 2%;
+    object-fit: contain;
     background-blend-mode: hard-light;
+
 }
 .spark {
     position: absolute;
     top: 20%;
-    left: 16%;;
+    left: 20%;;
     width: 58px;
     height: 58px;
     flex-shrink: 0;
 }
 
-/* intro */
-.intro{
-    display: flex;
-    height: 617px;; 
 
-}
-.image{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-}
-
-.straw {
-    width: 49.43px;
-    height: 57.974px;
-    margin: 420px 0 0 -30px;
-
-}
-
-.idea {
-    width: 490px;
-    height: 477px;
-    position: relative;
-    
-}
-
-.idea-info, .rule-info{
-    width: 535px;
-    word-wrap: break-word;
-    position: relative;
-    padding-right: 15px;
-}
-
-
-.idea-info .pink-star {
-    top: 20%;
-    left: -110%;
-}
-/* rules */
-.woman {
-    width: 664px;
-    height: 664px;
-    z-index: 10;
-}
-.rule{ 
-    position: relative;
-}
-.ellipse{
-    position: absolute;
-    top: 15%;
-    right: 8%;
-    /* z-index: -1; */
-
-}
-.rule-info .faded {
-    top: 30px;
-    left: 50%;
-}
-
-
-.rule-info .star {
-    bottom: 0%;
-    left: 100%;
-}
-
-/* stat */
-.stat {
-    height: 900px;
-    margin-bottom: 70px;
-    
-}
-.stat .info {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    width: 535px;
-}
-
-.stat .info h3 {
-    margin-bottom: 30px;
-}
-.stat p {
-    font-weight: 700;
-    font-size: 16px;
-    
-}
-p span {
-    color: var(--secondary-color);
-}
 @media screen and (max-width: 575px) {
     
     
