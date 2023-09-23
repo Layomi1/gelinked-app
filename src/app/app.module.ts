@@ -10,6 +10,16 @@ import { ButtonComponent } from './reuseable/button/button.component';
 import { MaterialModule } from './material/material.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
+import { OverviewComponent } from './components/overview/overview.component';
+import { FaqsComponent } from './components/faqs/faqs.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { JudgeComponent } from './components/judge/judge.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { TimelineComponent } from './components/timeline/timeline.component';
+import { RulesComponent } from './components/rules/rules.component';
+import { PrizesComponent } from './components/prizes/prizes.component';
+import { PartnersComponent } from './components/partners/partners.component';
+import { PrivacyComponent } from './components/privacy/privacy.component';
 
 
 @NgModule({
@@ -19,7 +29,19 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent, 
     RegisterComponent,
     NavbarComponent, 
-    ButtonComponent
+    ButtonComponent, 
+    OverviewComponent,
+    FaqsComponent, 
+    TestimonialsComponent,
+    JudgeComponent,
+    FooterComponent, 
+    TimelineComponent,
+    RulesComponent,
+    PrizesComponent,
+    PartnersComponent,
+    PrivacyComponent
+    
+
 
   ],
   imports: [

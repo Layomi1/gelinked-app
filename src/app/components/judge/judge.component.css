@@ -1,0 +1,23 @@
+.stat {
+    height: 900px;
+    margin-bottom: 70px;
+    
+}
+.stat .info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 535px;
+}
+
+.stat .info h3 {
+    margin-bottom: 30px;
+}
+.stat p {
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+p span {
+    color: var(--secondary-color);
+}

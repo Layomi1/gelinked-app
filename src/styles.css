@@ -71,6 +71,27 @@ h3 span{
     position: absolute;
 
 }
+
+.idea-info, .rule-info{
+    width: 535px;
+    word-wrap: break-word;
+    position: relative;
+    padding-right: 15px;
+}
+
+
+.idea-info .pink-star {
+    top: 20%;
+    left: -110%;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
 .container {
     padding: 30px 70px 10px 70px;
 }
@@ -85,10 +106,20 @@ h3 span{
 .rule-banner {
     background-image: url('/assets/images/purple-flare.png');
     background-color: var(--background-color);
-    background-position-y:  85% -49%;
-    /* background-repeat: no-repeat; */
+    background-position-x: 20% ;
     background-size: contain;
+    background-repeat: no-repeat;
     background-blend-mode: hard-light; 
+
+}
+
+.half-banner {
+    background-image: url('/assets/images/purple-half-flare.png');
+    background-color: var(--background-color);
+    background-position: 1000%  80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
 
 }
 .content {
