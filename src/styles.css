@@ -15,6 +15,11 @@
     --primary-color: #fff;
     --secondary-color: #FF26B9;
     --background-color: #150E28;
+    --blue-color :#903AFF;
+    --purple-color:#D434FE;
+    --dark-blue-color:#150E28;
+    
+
 }
 
 body{
@@ -38,6 +43,7 @@ img{
 P{
     font-size: 14px;
     line-height: 27.5px;
+    font-family: "Montserrat", sans-serif;
 }
 h3{
     font-size: 32px;
@@ -58,7 +64,7 @@ h3 span{
     height: 32px;
 }
 
-.faded{
+.faded,.purple-star{
     position: absolute;
     width: 26px;
     height: 32px;
@@ -104,24 +110,17 @@ h3 span{
     background-blend-mode: hard-light; 
 } 
 .rule-banner {
-    background-image: url('/assets/images/purple-flare.png');
+    background-image: url('/assets/images/purple-flare.png'),url('/assets/images/purple-half-flare.png');
     background-color: var(--background-color);
-    background-position-x: 20% ;
+    background-position: top left , right -50%;
     background-size: contain;
+
+    /* background-size: 1007px, 404px, auto; */
     background-repeat: no-repeat;
     background-blend-mode: hard-light; 
-
 }
 
-.half-banner {
-    background-image: url('/assets/images/purple-half-flare.png');
-    background-color: var(--background-color);
-    background-position: 1000%  80%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-blend-mode: hard-light;
 
-}
 .content {
     display: flex; 
     gap:5px;
